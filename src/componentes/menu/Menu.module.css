@@ -1,0 +1,37 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Menu a {
+  color: aliceblue;
+}
+
+.MenuNav {
+  display: flex;
+  gap: 1rem;
+}
+
+.MenuRedes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.MenuRedes img {
+  width: 25px;
+}
+
+.MenuNav li:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.MenuRedes li:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 0.4s;
+}

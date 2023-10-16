@@ -1,0 +1,17 @@
+.Button {
+  display: grid;
+}
+
+.Button button{
+  background: #ffffff00;
+  padding: 0.5rem 1rem ;
+  border: 2px solid #ffffffce;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.Button:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
