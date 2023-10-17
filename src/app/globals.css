@@ -5,11 +5,16 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Quattrocento Sans', sans-serif;
+  color: #fff;
 }
 
 .container {
   max-width: 1920px;
   margin: 0 auto;
-  background: #000;
+  background: #00000000;
+}
+
+p {
+  color: rgb(129, 134, 134);
 }
 

@@ -1,0 +1,44 @@
+.Banner {
+  background-image: url('../../../public/img/banner.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 9%;
+  position: relative;
+  z-index: 1;
+}
+
+.BannerCaixa {
+  display: flex;
+}
+
+.Banner img {
+  width: 80%;
+}
+
+.BannerTexto {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.BannerTexto h1 {
+  font-size: 3.5rem;
+}
+
+.BannerTexto h2 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.BannerTexto p {
+  font-size: 1.1rem;
+  padding-bottom: 3rem;
+}
+
+.ButtonBanner {
+  width: 20%;
+}
+
+.BannerImg {
+ display: flex;
+ justify-content: center;
+}
