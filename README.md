@@ -17,18 +17,18 @@ Contato: Formas de entrar em contato comigo.
 # 💼 Tecnologias utilizadas
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-JavaScript;
-React.js;
-Next.js;
-Hooks;
-HTML;
-Css.
+- JavaScript;
+- React.js;
+- Next.js;
+- Hooks;
+- HTML;
+- Css.
 
 # 📃 Tipografia
 
-font-family: 'Quattrocento Sans', sans-serif.
+- font-family: 'Quattrocento Sans', sans-serif.
 
 # ✏️ Cores
-cinza: #0e0d0d;
-preto: #151515.
+- cinza: #0e0d0d;
+- preto: #151515.
 
