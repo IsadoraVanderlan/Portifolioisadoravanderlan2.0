@@ -29,19 +29,19 @@ const Portifolio = () => {
             <div className={styles.Carousel}>
               <Slider {...settings} className={styles.CarouselItem}>
                 <div>
-                  <img src="./img/iba.svg" alt="" />
+                  <img src="./img/iba.svg" alt="https://institutobernalmeida.com.br/" />
                 </div>
                 <div>
-                  <img src="./img/portifolio 1.0.svg" alt="" />
+                  <img src="./img/portifolio 1.0.svg" alt="https://isadoravanderlan.github.io/portifolioisadoravanderlan.github.io/" />
                 </div>
                 <div>
-                  <img src="./img/ma&lu.svg" alt="" />
+                  <img src="./img/ma&lu.svg" alt="https://maelumodaseuniformes.com.br/" />
                 </div>
                 <div>
-                  <img src="./img/cdg.svg" alt="" />
+                  <img src="./img/cdg.svg" alt="https://casadosgrampos.com.br/" />
                 </div>
                 <div>
-                  <img src="./img/cqc.svg" alt="" />
+                  <img src="./img/cqc.svg" alt="https://cqccartasqcuram.com.br/" />
                 </div>
               </Slider>
             </div>
