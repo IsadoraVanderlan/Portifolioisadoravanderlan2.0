@@ -12,6 +12,7 @@ const Banner = () => {
             <div className={styles.BannerTexto}>
               <h1>Isadora Vanderlan</h1>
               <h2 className={styles.TextWrite}>Desenvolvedora front-end</h2>
+              
               <p>
                 Olá, bem vindo ao meu portifolio. Com uma sólida formação
                 acadêmica e experiência prática, estou entusiasmada em

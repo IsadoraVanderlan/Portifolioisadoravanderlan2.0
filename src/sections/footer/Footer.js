@@ -24,17 +24,17 @@ const Footer = () => {
             <h3>Contato</h3>
             <ul>
               <li>
-                <a href="">
+                <a href="" target='blanc'>
                   <img src="./icons/github.svg" />
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="" target='blanc'>
                   <img src="./icons/linkedin.svg" />
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="" target='blanc'>
                   <img src="./icons/whats.svg" />
                 </a>
               </li>

@@ -40,12 +40,12 @@ const Menu = () => {
       <div>
         <ul className={styles.MenuRedes}>
           <li>
-            <a href="https://github.com/IsadoraVanderlan">
+            <a href="https://github.com/IsadoraVanderlan" target='blanc'>
               <img src="./icons/github.svg" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/isadoravanderlan/">
+            <a href="https://www.linkedin.com/in/isadoravanderlan/" target='blanc'>
               <img src="./icons/linkedin.svg" />
             </a>
           </li>
