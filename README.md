@@ -6,7 +6,7 @@ Portifólio Isadora Vanderlan 2.0 - Este projeto foi desenvolvido por mim, com a
 ![Presentation](https://github.com/IsadoraVanderlan/Portifolioisadoravanderlan2.0/blob/main/public/img/portfolio.png)
 <br/><br/>
 
-# Link Para Visualização do Site:
+# Site:
 
 <a href="https://isadoravanderlan.github.io/Portifolioisadoravanderlan2.0/">Link para pagina
 </a>
