@@ -15,7 +15,7 @@ const Skills = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className={styles.Skills}>
+    <div className={styles.Skills} id='skills'>
       <div className="container">
         <Fade top>
           <div className={styles.SkillsCaixa}>

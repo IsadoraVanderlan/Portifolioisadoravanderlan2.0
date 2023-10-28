@@ -20,7 +20,7 @@ const Portifolio = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className={styles.Portifolio}>
+    <div className={styles.Portifolio} id='portifolio'>
       <div className="container">
         <div className={styles.PortifolioCaixa}>
           <h2>Portifolio</h2>

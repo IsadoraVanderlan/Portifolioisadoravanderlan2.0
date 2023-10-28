@@ -14,7 +14,7 @@ const Menu = () => {
               to="skills"
               spy={true}
               smooth={true}
-              offset={5}
+              offset={-100}
               duration={600}
               href=""
             >
@@ -24,10 +24,10 @@ const Menu = () => {
 
           <li>
             <Link
-              to="projetos"
+              to="portifolio"
               spy={true}
               smooth={true}
-              offset={5}
+              offset={-100}
               duration={600}
               href=""
             >
@@ -40,12 +40,12 @@ const Menu = () => {
       <div>
         <ul className={styles.MenuRedes}>
           <li>
-            <a href="https://github.com/IsadoraVanderlan" target='blanc'>
+            <a href="https://github.com/IsadoraVanderlan" target='_blanc'>
               <img src="./icons/github.svg" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/isadoravanderlan/" target='blanc'>
+            <a href="https://www.linkedin.com/in/isadoravanderlan/" target='_blanc'>
               <img src="./icons/linkedin.svg" />
             </a>
           </li>
