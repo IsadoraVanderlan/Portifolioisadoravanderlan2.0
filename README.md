@@ -1,5 +1,5 @@
 # Portifolioisadoravanderlan2.0
-Portifólio Isadora Vanderlan 2.0 - Este projeto foi desenvolvido por mim, com as tecnologia React.js.
+Portifólio Isadora Vanderlan 2.0 - Este projeto foi desenvolvido por mim, com a tecnologia React.js.
 
 <br/>
 
