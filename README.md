@@ -3,8 +3,14 @@ Portifólio Isadora Vanderlan 2.0 - Este projeto foi desenvolvido por mim, com a
 
 <br/>
 
-![Presentation]([https://github.com/IsadoraVanderlan/Portifolioisadoravanderlan2.0/blob/main/public/img/portfolio.png](https://isadoravanderlan.github.io/Portifolioisadoravanderlan2.0/))
+![Presentation](https://github.com/IsadoraVanderlan/Portifolioisadoravanderlan2.0/blob/main/public/img/portfolio.png)
 <br/><br/>
+
+# Link Para Visualização do Site:
+
+<a href="https://isadoravanderlan.github.io/Portifolioisadoravanderlan2.0/">Link para pagina
+</a>
+<br/>
 
 # 📚 Seções
 O site é composto por 5 seções diferentes:
