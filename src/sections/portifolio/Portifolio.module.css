@@ -1,0 +1,84 @@
+.Portifolio {
+  background-image: url('../../../public/img/back.svg');
+  background-size: cover;
+  padding: 5% 10% 10% 10%;
+  margin-top: -10px;
+}
+
+.PortifolioCaixa {
+  text-align: center;
+  border-radius: 30px;
+}
+
+.PortifolioCaixa h2 {
+  font-size: 4rem;
+}
+
+.PortifolioCaixa p {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.Carousel {
+  margin-top: 1%;
+  margin-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.CarouselImg {
+  position: relative;
+  display: inline-block;
+}
+
+.CarouselImg img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.CarouselItem img {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.CarouselItem {
+  display: flex;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.CarouselItem img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+/* .CarouselOpacite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(154, 9, 180, 0.5); 
+  opacity: 1; 
+  transition: opacity 0.3s; 
+}
+
+.CarouselImg:hover .CarouselOpacite {
+  opacity: 0;
+} */
+
+@media (max-width: 950px) {
+  .PortifolioCaixa h2 {
+    font-size: 3rem;
+  }
+}
+
+
+
+
+
+

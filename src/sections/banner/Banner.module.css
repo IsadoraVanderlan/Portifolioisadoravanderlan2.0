@@ -1,27 +1,26 @@
 .Banner {
   background-image: url('../../../public/img/banner.svg');
   background-size: cover;
-  background-attachment: fixed;
-  padding: 9%;
+  background-position: center;
+  padding: 5% 8%;
   position: relative;
-  z-index: 1;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .BannerCaixa {
   display: flex;
-}
-
-.Banner img {
-  width: 80%;
+  align-items: center;
 }
 
 .BannerTexto {
+  width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 .BannerTexto h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .BannerTexto h2 {
@@ -30,15 +29,156 @@
 }
 
 .BannerTexto p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding-bottom: 3rem;
-}
-
-.ButtonBanner {
-  width: 20%;
 }
 
 .BannerImg {
  display: flex;
  justify-content: center;
+ width: 80%;
+}
+
+.BannerImg img {
+  width: 550px;
+}
+
+.ButtonBanner {
+  display: grid;
+  width: 20%;
+}
+
+.ButtonBanner button{
+  background: #ffffff00;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffffffce;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.ButtonBanner:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.BannerImg {
+  overflow: hidden;
+}
+
+.VerticalMove {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  animation: moveUpAndDown 2s linear infinite alternate;
+}
+
+@keyframes moveUpAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+.TextWrite {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid #fff;
+  animation: typing 2s steps(40, end), blink-caret .75s step-end infinite, erasing 20s steps(40, start) 6s infinite;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes erasing {
+  0%,
+  100% {
+      width: 100%;
+  }
+  50% {
+      width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #fff;
+  }
+}
+
+
+@media (max-width: 1600px) {
+  .Banner {
+    padding: 6% 10%;
+  }
+  .BannerTexto {
+    width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .BannerImg img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .BannerTexto h1 {
+    font-size: 3.5rem;
+  }
+  .BannerTexto p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Banner {
+    padding-top: 11%;
+  }
+  .BannerImg img {
+    width: 350px;
+  }
+  .BannerTexto h1 {
+    font-size: 3rem;
+  }
+  .BannerTexto h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .BannerCaixa {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 10% 5% ;
+  }
+  .BannerTexto {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .BannerImg {
+    padding: 0%;
+  }
+}
+
+@media (max-width: 650px) {
+  .Banner {
+    padding-top: 20%;
+  }
+
 }

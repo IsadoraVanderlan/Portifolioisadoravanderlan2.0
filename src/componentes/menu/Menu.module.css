@@ -6,6 +6,7 @@
 
 .Menu a {
   color: aliceblue;
+  font-size: 1.3rem;
 }
 
 .MenuNav {
@@ -34,4 +35,14 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.2);
   transition: 0.4s;
+}
+
+.Menu .Button {
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  .Menu a {
+    font-size: 1.1rem;
+  }
 }

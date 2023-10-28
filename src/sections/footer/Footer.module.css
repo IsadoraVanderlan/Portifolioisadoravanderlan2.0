@@ -1,0 +1,120 @@
+.Footer {
+  background-image: url('../../../public/img/banner.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 5% 10%;
+  margin-top: -20px;
+}
+
+.FooterCaixa {
+  display: flex;
+}
+
+.FooterItens {
+  padding: 5% 10%;
+  margin-right: 20%;
+}
+
+.FooterItens h2 {
+  font-size: 4rem;
+  padding-bottom: 5%;
+}
+
+.FooterItens li {
+  font-size: 1.2rem;
+  color: #f0f8ffa1;
+}
+
+.FooterContato {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 8%;
+}
+
+.FooterContato h3 {
+  font-size: 2.5rem;
+  padding-bottom: 10%;
+}
+
+.FooterContato ul {
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+
+.FooterContato li:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+.FooterContato img {
+  width: 30px;
+}
+
+@media (max-width: 1600px) {
+  .Footer {
+    padding: 5%;
+    margin-top: -20px;
+  }
+  .FooterItens h2 {
+    font-size: 3rem;
+  }
+  .FooterItens {
+    padding: 5% 10%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .FooterItens {
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .Footer {
+    padding: 5% 1%;
+  }
+  .FooterItens {
+    margin-right: 0%;
+  }
+  .FooterContato h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .FooterCaixa {
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 5%;
+  }
+  .FooterContato {
+    margin: 2% 20%;
+  }
+  .FooterItens h2 {
+    font-size: 3rem;
+  }
+  .FooterContato ul {
+    justify-items: center;
+    justify-content: center;
+    padding: 5%;
+  }
+  .FooterItens li {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .FooterCaixa {
+    padding: 10% 5%;
+  }
+  .FooterItens h2 {
+    font-size: 2.2rem;
+  }
+  .FooterItens h3 {
+    font-size: 1rem;
+  }
+}

@@ -5,6 +5,24 @@
   justify-content: end;
   right: 0;
   position: fixed;
-  padding: 1rem 2rem;
-  z-index: 2;
+  padding: 1rem 30rem;
+  z-index: 10;
+}
+
+@media (max-width: 2600px) {
+  .Header {
+    padding: 2rem 10rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .Header {
+    padding: 2rem 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .Header {
+    padding: 2rem 2rem;
+  }
 }
