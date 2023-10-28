@@ -3,7 +3,7 @@ Portifólio Isadora Vanderlan 2.0 - Este projeto foi desenvolvido por mim, com a
 
 <br/>
 
-![Presentation]()
+![Presentation](https://github.com/IsadoraVanderlan/Portifolioisadoravanderlan2.0/blob/main/public/img/portfolio.png)
 <br/><br/>
 
 # 📚 Seções
